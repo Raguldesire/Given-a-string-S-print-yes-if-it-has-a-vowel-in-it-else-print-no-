@@ -1,0 +1,10 @@
+a=input()            #Getting input from the user 
+l=[]                 #creates an empty list to seperate the strings
+for i in a:          #am using for loop here
+  l.append(i)
+for i in l:          #using for loop for list l
+  if i=='a'or i=='e'or i=='i'or i=='o'or i=='u':
+    print("yes")
+    break
+else:
+    print("no")
